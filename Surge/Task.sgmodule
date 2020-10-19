@@ -66,10 +66,6 @@ cron "20 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "30 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,tag=腾讯视频
 # 喜马拉雅
 cron "40 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,tag=喜马拉雅
-# 苏宁易购
-cron "0 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,tag=苏宁易购
-# 疫情日报
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js,tag=疫情日报
 # 彩云天气
 cron "30 8-22 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气
 # 中国电信套餐
@@ -80,8 +76,6 @@ cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/ma
 cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/icbc/icbc_sign.js, tag=工银e生活
 # 倒数日
 cron "0 8 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js, tag=倒数日
-# 电信余额提醒
-cron "10 12 25,1 * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/10000.js, tag=电信余额提醒
 # 京东特权值
 cron "5 8 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值
 # 京东读书
