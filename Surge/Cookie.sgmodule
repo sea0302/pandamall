@@ -21,11 +21,6 @@ http-request ^https:\/\/api\.rr\.tv\/user\/profile script-path=https://raw.githu
 http-request ^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js, tag=中国电信
 # 去哪儿
 http-request ^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js, tag=去哪儿
-# 苏宁易购
-http-request ^https:\/\/passport.suning.com\/ids\/login$ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js, tag=苏宁易购
-http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js, tag=苏宁易购
-http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js, tag=苏宁易购
-http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js, tag=苏宁易购
 # 京东
 http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex) max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东
 # 爱奇艺
@@ -59,4 +54,4 @@ http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-pat
 
 
 [MITM]
-hostname = %APPEND% draw.jdfcloud.com, jdjoy.jd.com, c.tieba.baidu.com, api.m.jd.com, ifac*.iqiyi.com, wapside.189.cn, *.feng.com, api-takumi.mihoyo.com, music.163.com, *.m.163.com, *.y.qq.com, user.qunar.com, *.rr.tv, *.smzdm.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, tieba.baidu.com, tncj.hortorgames.com, *.v2ex.com, *.video.qq.com, 110.43.90.61, mobwsa.ximalaya.com, *.rrys2019.com, as.xiaojukeji.com, superapp.kiwa-tech.com, h5.ele.me, draw.jdfcloud.com, e.189.cn, dominos0724.shjimang.com, e.189.cn, weather-data.apple.com, api.weather.com, cloud.umetrip.com, www.2xtj7.cn,www.hnmiaosu.cc, m.ctrp.com, *.ctrp.com, icbc1.wlphp.com:8444, api.m.jd.com, ios-fenqu11.lxsjgo.com, wq.jd.com, jdread-api.jd.com, mobile.app.autohome.com.cn, 
+hostname = %APPEND% draw.jdfcloud.com, jdjoy.jd.com, c.tieba.baidu.com, api.m.jd.com, ifac*.iqiyi.com, wapside.189.cn, *.feng.com, api-takumi.mihoyo.com, music.163.com, *.m.163.com, *.y.qq.com, user.qunar.com, *.rr.tv, *.smzdm.com, tieba.baidu.com, tncj.hortorgames.com, *.v2ex.com, *.video.qq.com, 110.43.90.61, mobwsa.ximalaya.com, *.rrys2019.com, as.xiaojukeji.com, superapp.kiwa-tech.com, h5.ele.me, draw.jdfcloud.com, e.189.cn, dominos0724.shjimang.com, e.189.cn, weather-data.apple.com, api.weather.com, cloud.umetrip.com, www.2xtj7.cn,www.hnmiaosu.cc, m.ctrp.com, *.ctrp.com, icbc1.wlphp.com:8444, api.m.jd.com, ios-fenqu11.lxsjgo.com, wq.jd.com, jdread-api.jd.com, mobile.app.autohome.com.cn, 
