@@ -31,14 +31,6 @@ http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.
 http-request https://weather-data.apple.com script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气
 # 京东
 http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex) max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东
-# 宠汪汪助力更新Token
-http-response ^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+& script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_run.js, timeout=10, tag=宠汪汪助力更新Token
-# 宠汪汪助力获取Token
-http-request ^https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_run.js, timeout=10, tag=宠汪汪助力获取Token
-# 宠汪汪强制为别人助力
-http-request ^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_help.js, timeout=10, tag=宠汪汪强制为别人助力
-# 聚宝盆投狗粮辅助
-http-response ^https:\/\/jdjoy\.jd\.com\/pet\/getPetTreasureBox|^https:\/\/draw\.jdfcloud\.com\/\/pet\/getPetTreasureBox script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_petTreasureBox.js, timeout=10, tag=聚宝盆投狗粮辅助
 
 [MITM]
-hostname = %APPEND% draw.jdfcloud.com, jdjoy.jd.com, c.tieba.baidu.com, api.m.jd.com, wapside.189.cn, *.feng.com, api-takumi.mihoyo.com, music.163.com, *.m.163.com, *.y.qq.com, *.smzdm.com, tieba.baidu.com, tncj.hortorgames.com, *.v2ex.com, *.video.qq.com, 110.43.90.61, mobwsa.ximalaya.com, *.rrys2019.com, as.xiaojukeji.com, common.diditaxi.com.cn, superapp.kiwa-tech.com, h5.ele.me, draw.jdfcloud.com, dominos0724.shjimang.com, weather-data.apple.com, api.weather.com, www.2xtj7.cn,www.hnmiaosu.cc, m.ctrp.com, *.ctrp.com, api.m.jd.com, ios-fenqu11.lxsjgo.com, wq.jd.com, mobile.app.autohome.com.cn, 
+hostname = %APPEND% c.tieba.baidu.com, api.m.jd.com, wapside.189.cn, *.feng.com, api-takumi.mihoyo.com, music.163.com, *.m.163.com, *.y.qq.com, *.smzdm.com, tieba.baidu.com, tncj.hortorgames.com, *.v2ex.com, *.video.qq.com, 110.43.90.61, mobwsa.ximalaya.com, *.rrys2019.com, as.xiaojukeji.com, common.diditaxi.com.cn, superapp.kiwa-tech.com, h5.ele.me, dominos0724.shjimang.com, weather-data.apple.com, api.weather.com, www.2xtj7.cn,www.hnmiaosu.cc, m.ctrp.com, *.ctrp.com, api.m.jd.com, ios-fenqu11.lxsjgo.com, wq.jd.com, mobile.app.autohome.com.cn, 
