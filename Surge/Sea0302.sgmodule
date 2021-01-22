@@ -3,10 +3,10 @@
 #!system=ios
 
 [Script]
-水印精灵Vip = type=http-response,pattern=https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js,script-update-interval=0
-Textnow去广告 = type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js,script-update-interval=0
-滴答清单pro = type=http-response,pattern=^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/sea0302/Script/master/QuantumultX/File/DiDaQingDan.js,script-update-interval=0
-VUE pro = type=http-response,pattern=https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,script-update-interval=0
+水印精灵Vip = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
+Textnow去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.*,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js
+滴答清单pro = type=http-response,pattern=^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/sea0302/Script/master/QuantumultX/File/DiDaQingDan.js
+VUE pro = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
 
 [MITM]
 hostname = %APPEND% api1.dobenge.cn,api.textnow.me,api.vuevideo.net,dida365.com,ticktick.com
