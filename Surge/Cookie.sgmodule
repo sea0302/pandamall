@@ -27,11 +27,9 @@ http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.g
 http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js, tag=腾讯视频
 # 喜马拉雅
 http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js,tag=喜马拉雅
-# 彩云天气
-http-request https://weather-data.apple.com script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气
 #伊利乳品
 http-request https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js, tag=伊利乳品
 #小米运动
 http-request ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/backUp/xmSports.js, tag=小米运动获取Token
 [MITM]
-hostname = %APPEND% c.tieba.baidu.com, wapside.189.cn, api-takumi.mihoyo.com, music.163.com, *.m.163.com, *.y.qq.com, *.smzdm.com, tncj.hortorgames.com, *.v2ex.com, *.video.qq.com, 110.43.90.61, mobwsa.ximalaya.com, as.xiaojukeji.com, common.diditaxi.com.cn, superapp.kiwa-tech.com, h5.ele.me, dominos0724.shjimang.com, weather-data.apple.com, api.weather.com, www.2xtj7.cn,www.hnmiaosu.cc, m.ctrp.com, *.ctrp.com, api.m.jd.com, ios-fenqu11.lxsjgo.com, wq.jd.com, mobile.app.autohome.com.cn,club.yili.com,account.huami.com 
+hostname = %APPEND% c.tieba.baidu.com, wapside.189.cn, api-takumi.mihoyo.com, music.163.com, *.m.163.com, *.y.qq.com, *.smzdm.com, tncj.hortorgames.com, *.v2ex.com, *.video.qq.com, 110.43.90.61, mobwsa.ximalaya.com, as.xiaojukeji.com, common.diditaxi.com.cn, superapp.kiwa-tech.com, h5.ele.me, dominos0724.shjimang.com, www.2xtj7.cn,www.hnmiaosu.cc, m.ctrp.com, *.ctrp.com, api.m.jd.com, ios-fenqu11.lxsjgo.com, wq.jd.com, mobile.app.autohome.com.cn,club.yili.com,account.huami.com 
