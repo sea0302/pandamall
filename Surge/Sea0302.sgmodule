@@ -22,4 +22,4 @@ VUE pro = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/api\.v
 http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音去水印
 
 [MITM]
-hostname = %APPEND% api1.dobenge.cn,api.textnow.me,api.vuevideo.net,biz.caiyunapp.com,*.amemv.com,aweme.snssdk.com,trade-acs.m.taobao.com,api.m.jd.com
+hostname = %APPEND% api1.dobenge.cn,api.textnow.me,api.vuevideo.net,biz.caiyunapp.com,*.amemv.com,aweme.snssdk.com,trade-acs.m.taobao.com,api.m.jd.com,-*.amemv.com, -*.snssdk.com
